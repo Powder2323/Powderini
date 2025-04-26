@@ -1,0 +1,224 @@
+*{  /* e pe tot site-ul */
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #B3D9FF; /* culoarea background-ului */
+    color: #333333;  /* culoarea scrisului */
+}
+
+#inceput {
+    background-color: #D1E8FF /* culoare background doar pe o sectiune */
+}
+
+.inceput{
+    text-align: center;  /*textul este aliniat in centru */
+    font-size: 40px;   /* dimensiunea fontului */
+}
+
+.poza-inceput{
+    width: 100%;      /* lungimea pozei stanga-dreapta */
+    height: 580px;    /* inaltimea imaginii */
+    image-rendering: auto;  /* randeaza imaginea fara sa arate pixelata / urata (poate sa lipseasca) */
+}
+
+#cuprins{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    h1{   /* doar <h1> */
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+    li{  /* doar listele <li> */
+        font-size: 30px;
+        padding: 3px;
+        color: #3c41e6;
+    }
+    a{
+        color:#3c41e6;
+    }
+    a:hover{ /* cand este cursor-ul pe hyperlink */
+        color: red;
+    }
+    a:active{  /* cand am dat click pe hyperlink */
+        color: green;
+    }
+}
+
+#introducere{
+    margin-top: 5px;
+    h1{
+        font-size: 70px;
+        margin-bottom: 15px;
+        margin-left: 100px;
+    }
+    p{
+        margin-left: 15px;
+        text-indent: 30px;
+        font-size:30px;
+    }
+    img{
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+    iframe{
+        margin-left: 30%;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+}
+
+#geografie{
+    margin-top: 50px;
+    h1{
+        font-size: 70px;
+        margin-left: 100px;
+        margin-bottom: 15px;
+    }
+    p{
+        margin-left: 15px;
+        text-indent: 30px;
+        font-size: 30px;
+    }
+    img{
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+    }
+}
+
+#turism{
+    margin-top: 60px;
+    h1{
+        font-size: 70px;
+        margin-left: 100px;
+        margin-bottom: 15px;
+    }
+    p{
+        margin-left: 15px;
+        text-indent: 30px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    li{
+        margin-left: 70px;
+        font-size: 25px;
+    }
+    h2{
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    img{
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+}
+
+#cultura{
+    margin-top: 100px;
+    h1{
+        font-size: 70px;
+        margin-left: 100px;
+        margin-bottom: 25px;
+    }
+    p{
+        margin-left: 15px;
+        text-indent: 30px;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    li{
+        margin-left: 70px;
+        font-size: 25px;
+    }
+    h2{
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    img{
+        margin-left: 225px;
+        margin-top: 40px;
+    }
+}
+
+#gastronomie{
+    margin-top: 100px;
+    h1{
+        font-size: 70px;
+        margin-left: 100px;
+        margin-bottom: 15px;
+    }
+    p{
+        margin-left: 15px;
+        text-indent: 30px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    li{
+        margin-left: 70px;
+        font-size: 25px;
+    }
+    h2{
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    img{
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+}
+
+#concluzie{
+    margin-top: 10px;
+    h1{
+        font-size: 70px;
+        margin-left: 100px;
+        margin-bottom: 15px;
+    }
+    p{
+        margin-left: 15px;
+        text-indent: 30px;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+#surse{
+    margin-top: 10px;
+    h1{
+        font-size: 60px;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    h3{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    a{
+        margin-left: 25px;
+        font-size: 25px;
+    }
+    a:hover{
+        color: red;
+    }
+}
+
+.final{
+    margin-top: 50px;
+    p{
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    img{
+        width: 100%;
+        height: auto;
+        image-rendering: auto;  
+    }
+}
